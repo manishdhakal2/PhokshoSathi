@@ -6,4 +6,4 @@ Pillow
 scikit-learn
 tqdm
 pyqt5
-opencv
+opencv-python
