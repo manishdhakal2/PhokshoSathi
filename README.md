@@ -1,25 +1,26 @@
 
-# PhokshoSathi
+# PhokshoSathi 🫁
 
-(translates to Lung Companion) - A trained ResNet50 model for classifying X-Ray Scans as Pneumonia Positive Or Negative.
+**PhokshoSathi** (translates to *Lung Companion*) is a Python-based desktop application powered by a fine-tuned **ResNet50** model that classifies chest X-ray scans as **Pneumonia Positive** or **Negative**. Designed with a user-friendly GUI, it's ideal for rapid screening in clinical or educational settings.
 
-# Model Used
+---
 
-ResNet50 : Pretrained
+## 🧠 Model Overview
 
-Fully Connected Layer Fine-Tuned For Chest X-Rays
+- **Architecture:** Pretrained [ResNet50](https://arxiv.org/abs/1512.03385)
+- **Modification:** Final fully connected layer fine-tuned for binary classification of chest X-rays
+- **Training Accuracy:** ~91%
 
+---
 
+## 💡 Features
 
+- ✅ High-accuracy pneumonia detection
+- 🖥️ Fullscreen, desktop-friendly GUI
+- 🐍 Built entirely with Python (PyQt5)
+- ⚡ Fast, lightweight, and easy to run locally
 
-
-
-## Features
-
-- 91% Training Accuracy
-- Pythonic GUI support
-- Fullscreen mode
-- Desktop-friendly application
+---
 
 
 
